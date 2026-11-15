@@ -13916,4 +13916,64 @@
     <ar>لا توجد محاولات دخول مسجلة لعضويتك حتى الآن.</ar>
     <text>No login attempts are recorded for your membership yet.</text>
   </phrase>
+  <phrase>
+    <ar>مراقب %s</ar>
+    <text>%s Supervisor</text>
+  </phrase>
+  <phrase>
+    <ar>مراقبة %s</ar>
+    <text>%s Supervisor</text>
+  </phrase>
+  <phrase>
+    <ar>نائب مراقب %s</ar>
+    <text>%s Deputy Supervisor</text>
+  </phrase>
+  <phrase>
+    <ar>نائبة مراقب %s</ar>
+    <text>%s Deputy Supervisor</text>
+  </phrase>
+  <phrase>
+    <ar>مشرف %s</ar>
+    <text>%s Moderator</text>
+  </phrase>
+  <phrase>
+    <ar>مشرفة %s</ar>
+    <text>%s Moderator</text>
+  </phrase>
+  <phrase>
+    <ar>صباحاً</ar>
+    <text>AM</text>
+  </phrase>
+  <phrase>
+    <ar>مساءً</ar>
+    <text>PM</text>
+  </phrase>
+  <phrase>
+    <ar>%s في %s</ar>
+    <text>%s, %s</text>
+  </phrase>
+  <phrase>
+    <ar>فضاء One Piece</ar>
+    <text>One Piece Space</text>
+  </phrase>
+  <phrase>
+    <ar>فضاء ألعاب الـ PC</ar>
+    <text>PC Gaming Space</text>
+  </phrase>
+  <phrase>
+    <ar>فضاء البرمجة</ar>
+    <text>Programming Space</text>
+  </phrase>
+  <phrase>
+    <ar>تجربة تحميل الصور</ar>
+    <text>Image Upload Test</text>
+  </phrase>
+  <phrase>
+    <ar>الوضع الليلي</ar>
+    <text>Dark mode</text>
+  </phrase>
+  <phrase>
+    <ar>الوضع النهاري</ar>
+    <text>Light mode</text>
+  </phrase>
 </language>

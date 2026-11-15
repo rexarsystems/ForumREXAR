@@ -1,6 +1,11 @@
 # Changelog
 
-## Next release
+## 2.0 update (November 2026)
+
+- **Dark mode** in deep navy colours, from a moon button in the member card, on computers and phones. Posts that set their own colours keep the contrast their writer chose, and pictures keep their real colours.
+- **Faster big forums:** member lookups use an index, a topic page reads only the posts it shows, and the active topics page lists the latest topics (as many as set in the control panel). Measured with one million posts: a 20,000-reply topic opens in 80 ms instead of 21 seconds.
+- **Lower memory use** and a compact data file.
+- English interface: staff descriptions, the busiest-time line and the default chat rooms are now translated.
 
 - **Drafts:** what members type in a new topic, the quick reply, a topic or reply edit, or a private message is saved in their browser 1.5 seconds after they stop typing. Coming back offers to restore or ignore it. Drafts last 7 days, at most 20 are kept, and they are deleted once the text is posted or when the member logs out.
 - **Leave-page confirmation** when a page has unsent text.

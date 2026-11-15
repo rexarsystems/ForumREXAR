@@ -18,7 +18,8 @@ ForumREXAR is written in Go and ships as a single Docker image. Posts are stored
 - Categories, forums and topics in the classic forum layout, with pinned, featured, locked and hidden topics.
 - A per-member choice between the classic forum list and a boxed layout of the forums.
 - Quick reply with a full rich-text editor, quotes, @mentions, likes and topic follow.
-- **Drafts:** what you type in a topic, reply, edit or private message is saved in your browser, and you are asked before leaving a page with unsent text. *(next release)*
+- **Drafts:** what you type in a topic, reply, edit or private message is saved in your browser, and you are asked before leaving a page with unsent text.
+- **Dark mode:** a moon button in the member card turns the forum dark, on computers and phones, keeping the colours members chose in their posts readable.
 - Private messages with inbox, outbox and trash.
 - A multi-room **live chat**.
 - Member profiles, medals, titles, post styles and name-change requests.
@@ -48,7 +49,7 @@ ForumREXAR is written in Go and ships as a single Docker image. Posts are stored
 ### Under the hood
 - Go backend, single binary, multi-architecture Docker image (amd64, arm64).
 - Posts in an embedded pure-Go SQLite database (WAL mode); no PostgreSQL, MySQL or Redis.
-- Hashed passwords, signed sessions, login rate limiting, a connection log and a login-attempts log for every member *(next release)*.
+- Hashed passwords, signed sessions, login rate limiting, a connection log and a login-attempts log for every member.
 - Built-in backups from the control panel.
 
 ---
