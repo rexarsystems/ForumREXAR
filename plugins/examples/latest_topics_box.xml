@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin schema_version="1.0">
+    <id>latest_topics_box</id>
+    <name>أحدث المواضيع والإحصائيات</name>
+    <version>1.0.0</version>
+    <min_rexar_version>1.0.0</min_rexar_version>
+    <api_version>1</api_version>
+    <author>ForumREXAR</author>
+    <description>صندوق يعرض أحدث المواضيع العامة مع إحصائيات المنتدى.</description>
+    <icon>🆕</icon>
+    <hook>HOME_ABOVE_FORUMS</hook>
+    <data_source>latest_topics,forum_stats</data_source>
+    <settings>
+        <setting key="limit" type="int" label="عدد المواضيع" default="5" min="1" max="20"/>
+    </settings>
+    <template><![CDATA[
+<div class="vb-bottom-box">
+    <div class="vb-box-header">أحدث المواضيع</div>
+    <div class="vb-box-body">
+        {{range .data.latest_topics}}<a href="{{index . "url"}}">{{index . "title"}}</a>{{end}}
+        <p>الأعضاء: {{index .data.forum_stats "members_count"}} | المواضيع: {{index .data.forum_stats "topics_count"}}</p>
+    </div>
+</div>
+]]></template>
+</plugin>

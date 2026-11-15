@@ -1,0 +1,45 @@
+name: Bug report
+description: Something in ForumREXAR does not work as it should
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: ForumREXAR version
+      description: Shown in the control panel header, for example 2.0.
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where does it happen?
+      options:
+        - Computer browser
+        - Phone browser
+        - Both
+  - type: input
+    id: language
+    attributes:
+      label: Forum language
+      placeholder: Arabic, English, ...
+  - type: textarea
+    id: logs
+    attributes:
+      label: Server logs (optional)
+      description: Output of `docker compose logs --tail 50`. Remove any private data first.
+      render: text

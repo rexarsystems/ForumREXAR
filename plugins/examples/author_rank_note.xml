@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin schema_version="1.0">
+    <id>author_rank_note</id>
+    <name>تقدير كبار المشاركين</name>
+    <version>1.0.0</version>
+    <min_rexar_version>1.0.0</min_rexar_version>
+    <api_version>1</api_version>
+    <author>ForumREXAR</author>
+    <description>يعرض شارة تحت كاتب المشاركة إذا تجاوزت مشاركاته الحد الذي يختاره المدير.</description>
+    <icon>⭐</icon>
+    <hook>POST_AUTHOR_BELOW</hook>
+    <settings>
+        <setting key="min_posts" type="int" label="الحد الأدنى للمشاركات" default="100" min="1" max="100000"/>
+        <setting key="badge_text" type="string" label="نص الشارة" default="عضو مميز" max_len="30"/>
+    </settings>
+    <template><![CDATA[
+{{if ge (index .context "posts_count") (index .settings "min_posts")}}
+<div class="vb-bottom-box"><div class="vb-box-header">⭐ {{index .settings "badge_text"}}</div></div>
+{{end}}
+]]></template>
+</plugin>

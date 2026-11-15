@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin schema_version="1.0">
+    <id>community_corner</id>
+    <name>ركن المجتمع</name>
+    <version>1.0.0</version>
+    <min_rexar_version>1.0.0</min_rexar_version>
+    <api_version>1</api_version>
+    <author>ForumREXAR</author>
+    <description>استفتاء سريع أعلى الرئيسية، مع صفحة خاصة لاقتراحات الأعضاء.</description>
+    <icon>💬</icon>
+    <hook>HOME_ABOVE_FORUMS</hook>
+    <settings>
+        <setting key="question" type="string" label="سؤال الاستفتاء" default="هل أعجبك تصميم المنتدى؟" max_len="120"/>
+    </settings>
+    <actions>
+        <action id="poll" type="vote" options="yes,no" cooldown="5"/>
+        <action id="ideas" type="entry" max_len="300" max_entries="200" cooldown="30"/>
+    </actions>
+    <template><![CDATA[
+<div class="vb-bottom-box">
+    <div class="vb-box-header">{{index .settings "question"}}</div>
+    <div class="vb-box-body">
+        <button data-plugin-action="poll" data-plugin-value="yes">نعم ({{index .storage.poll "yes"}})</button>
+        <button data-plugin-action="poll" data-plugin-value="no">لا ({{index .storage.poll "no"}})</button>
+        <button data-plugin-open="about">عن الاستفتاء</button>
+        <a href="/f.aspx?plugin=community_corner">اقتراحات الأعضاء</a>
+        <span data-plugin-status="box"></span>
+        <div data-plugin-modal="about">
+            <div>
+                <p>صوتك يُحتسب مرة واحدة ويمكنك تغييره لاحقاً.</p>
+                <button data-plugin-close="about">إغلاق</button>
+            </div>
+        </div>
+    </div>
+</div>
+]]></template>
+    <page_title>اقتراحات الأعضاء</page_title>
+    <page_template><![CDATA[
+<div class="vb-bottom-box">
+    <div class="vb-box-header">اقتراحات الأعضاء</div>
+    <div class="vb-box-body">
+        {{if .viewer.logged_in}}
+        <p>أهلاً {{.viewer.username}}، شاركنا اقتراحك:</p>
+        <textarea data-plugin-input="ideas" maxlength="300" rows="3" placeholder="اكتب اقتراحك هنا"></textarea>
+        <button data-plugin-action="ideas" data-plugin-field="ideas">إرسال</button>
+        <span data-plugin-status="page"></span>
+        {{else}}
+        <p>سجل دخولك لإضافة اقتراح.</p>
+        {{end}}
+        {{range .storage.ideas}}
+        <p><a href="{{index . "profile_url"}}">{{index . "username"}}</a>: {{index . "text"}}</p>
+        {{end}}
+    </div>
+</div>
+]]></page_template>
+</plugin>

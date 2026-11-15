@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin schema_version="1.0">
+    <id>royal_purple_theme</id>
+    <name>المظهر البنفسجي الملكي</name>
+    <version>1.0.0</version>
+    <min_rexar_version>1.0.0</min_rexar_version>
+    <api_version>1</api_version>
+    <author>ForumREXAR</author>
+    <description>يغيّر ألوان ترويسات المنتدى وروابطه إلى البنفسجي، مع إمكانية اختيار الألوان من الإعدادات.</description>
+    <icon>🎨</icon>
+    <settings>
+        <setting key="primary" type="color" label="اللون الأساسي" default="#6d28d9"/>
+        <setting key="secondary" type="color" label="اللون الثاني للتدرج" default="#4c1d95"/>
+        <setting key="page_bg" type="color" label="خلفية الصفحة" default="#f3f0fa"/>
+        <setting key="accent" type="color" label="لون التحويم" default="#f59e0b"/>
+    </settings>
+    <theme><![CDATA[
+/* متغيرات المنتدى الأساسية */
+:root {
+    --startimes-blue: var(--setting-primary);
+    --startimes-dark-blue: var(--setting-secondary);
+    --startimes-header-bg: linear-gradient(180deg, var(--setting-primary) 0%, var(--setting-secondary) 100%);
+    --bg-body: var(--setting-page_bg);
+    --border-table: var(--setting-primary);
+}
+
+body {
+    background-color: var(--setting-page_bg) !important;
+}
+
+/* ترويسات الأقسام والجداول والمواضيع */
+.table-columns-header,
+.table-columns-header th,
+.st-thead-row th,
+.vb-box-header,
+.startimes-topic-blue-banner,
+.startimes-topic-bottom-bar {
+    background: linear-gradient(90deg, var(--setting-primary) 0%, var(--setting-secondary) 100%) !important;
+}
+
+.vb-bottom-box {
+    border-bottom-color: var(--setting-primary);
+}
+
+/* الروابط عند التحويم */
+.st-cat-link:hover {
+    color: var(--setting-accent) !important;
+}
+
+.vb-box-body a:hover {
+    color: var(--setting-accent);
+}
+]]></theme>
+</plugin>

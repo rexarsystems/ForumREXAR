@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin schema_version="1.0">
+    <id>site_notice_bar</id>
+    <name>شريط إعلان أعلى الصفحات</name>
+    <version>1.0.0</version>
+    <min_rexar_version>1.0.0</min_rexar_version>
+    <api_version>1</api_version>
+    <author>ForumREXAR</author>
+    <description>صندوق إعلان يظهر تحت الهيدر في صفحات المنتدى، ويكتب المدير نصه من الإعدادات.</description>
+    <icon>📢</icon>
+    <hook>HEADER_BELOW</hook>
+    <settings>
+        <setting key="notice_title" type="string" label="عنوان الإعلان" default="إعلان إداري" max_len="60"/>
+        <setting key="notice_text" type="string" label="نص الإعلان" default="مرحباً بكم في منتدياتنا" max_len="200"/>
+    </settings>
+    <template><![CDATA[
+<div class="vb-bottom-box">
+    <div class="vb-box-header">{{index .settings "notice_title"}}</div>
+    <div class="vb-box-body">{{index .settings "notice_text"}}</div>
+</div>
+]]></template>
+</plugin>

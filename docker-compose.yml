@@ -1,0 +1,16 @@
+services:
+  forumrexar:
+    image: forumrexar/forumrexar:latest
+    container_name: forumrexar
+    restart: unless-stopped
+    ports:
+      - "38980:8080"
+    volumes:
+      - ./data:/app/data
+      - ./uploads:/app/web/static/uploads
+    environment:
+      - PORT=8080
+      - APP_ENV=production
+      - APP_NAME=ForumREXAR
+      # Your server's time zone, for example Europe/London or America/New_York
+      - TZ=Asia/Riyadh

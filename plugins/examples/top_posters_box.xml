@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin schema_version="1.0">
+    <id>top_posters_box</id>
+    <name>أكثر الأعضاء مشاركة</name>
+    <version>1.0.0</version>
+    <min_rexar_version>1.0.0</min_rexar_version>
+    <api_version>1</api_version>
+    <author>ForumREXAR</author>
+    <description>صندوق أسفل أقسام الرئيسية يعرض أكثر الأعضاء مشاركة مع صورهم وعدد مشاركاتهم.</description>
+    <icon>🏆</icon>
+    <hook>HOME_BELOW_FORUMS</hook>
+    <data_source>top_posters</data_source>
+    <settings>
+        <setting key="box_title" type="string" label="عنوان الصندوق" default="أكثر الأعضاء مشاركة" max_len="60"/>
+        <setting key="limit" type="int" label="عدد الأعضاء" default="5" min="1" max="20"/>
+        <setting key="show_avatars" type="bool" label="عرض الصور" default="true"/>
+        <setting key="show_posts_count" type="bool" label="عرض عدد المشاركات" default="true"/>
+    </settings>
+    <template><![CDATA[
+<div class="vb-bottom-box">
+    <div class="vb-box-header">{{index .settings "box_title"}}</div>
+    <div class="vb-box-body">
+        {{range .data.top_posters}}
+        <a href="{{index . "profile_url"}}">
+            {{if index $.settings "show_avatars"}}<img src="{{index . "avatar_url"}}" alt="صورة العضو">{{end}}
+            <span>{{index . "username"}}</span>
+            {{if index $.settings "show_posts_count"}}<span>({{index . "posts_count"}})</span>{{end}}
+        </a>
+        {{end}}
+    </div>
+</div>
+]]></template>
+</plugin>
