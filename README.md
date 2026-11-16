@@ -1,5 +1,9 @@
 # ForumREXAR
 
+[![Docker image version](https://img.shields.io/docker/v/forumrexar/forumrexar?sort=semver&label=docker)](https://hub.docker.com/r/forumrexar/forumrexar)
+[![Docker pulls](https://img.shields.io/docker/pulls/forumrexar/forumrexar)](https://hub.docker.com/r/forumrexar/forumrexar)
+[![Platforms](https://img.shields.io/badge/platforms-amd64%20%7C%20arm64-blue)](https://hub.docker.com/r/forumrexar/forumrexar/tags)
+
 **A self-hosted forum engine that brings back structured, classic forums — with the real-time feel of modern community apps.**
 
 ForumREXAR is written in Go and ships as a single Docker image. Posts are stored in an embedded SQLite database, so there is no external database, cache server or search service to set up. It speaks many languages, flips its whole layout between right-to-left and left-to-right, and can be extended with safe, declarative XML plugins.
