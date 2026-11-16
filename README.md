@@ -12,7 +12,31 @@ ForumREXAR is written in Go and ships as a single Docker image. Posts are stored
 - **Website:** https://rexar.net
 - **Docker image:** [`forumrexar/forumrexar`](https://hub.docker.com/r/forumrexar/forumrexar) (amd64 and arm64)
 
-> Screenshots are coming soon.
+## Screenshots
+
+**Home page:** categories, forums, staff for each forum, and who is online.
+
+![Home page](docs/screenshots/home.png)
+
+**Active topics,** with the side menu: language, layout, and the dark mode button in the member card.
+
+![Active topics](docs/screenshots/active-topics.png)
+
+**A topic,** with the writer cards and staff titles.
+
+![Topic](docs/screenshots/topic.png)
+
+**Moderation tools and the reply editor.**
+
+![Reply editor](docs/screenshots/reply-editor.png)
+
+**Dark mode,** on computers and phones.
+
+<p><img src="docs/screenshots/dark-mode.png" alt="Dark mode" width="74%"> <img src="docs/screenshots/dark-mode-phone.png" alt="Dark mode on a phone" width="24%"></p>
+
+**Control panel:** supervisors, deputies and moderators for each forum.
+
+![Control panel](docs/screenshots/admin-staff.png)
 
 ---
 
