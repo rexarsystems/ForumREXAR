@@ -51,7 +51,8 @@ ForumREXAR is written in Go and ships as a single Docker image. Posts are stored
 - Private messages with inbox, outbox and trash.
 - A multi-room **live chat**.
 - Member profiles, medals, titles, post styles and name-change requests.
-- Forum search for members.
+- **Fast Arabic-aware search** for members: an embedded full-text index that ignores diacritics and hamza forms and finds words with or without the article (searching a million posts takes about 50 ms).
+- **Link cards:** a link written alone on its line shows as a card with the page picture, title and description (GitHub repositories included). Pages are read once in the background with strict safety limits, and the director can turn cards off. Links to other sites open in a new tab.
 
 ### Real-time engagement
 - Instant notifications for replies in followed topics, mentions, quotes, likes and private messages, pushed to the browser as they happen.

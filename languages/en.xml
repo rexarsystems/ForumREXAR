@@ -13976,4 +13976,12 @@
     <ar>الوضع النهاري</ar>
     <text>Light mode</text>
   </phrase>
+  <phrase>
+    <ar>الزوار فقط</ar>
+    <text>Guests only</text>
+  </phrase>
+  <phrase>
+    <ar>تحويل الروابط إلى بطاقات عرض</ar>
+    <text>Show links as preview cards</text>
+  </phrase>
 </language>
