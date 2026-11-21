@@ -13984,4 +13984,132 @@
     <ar>تحويل الروابط إلى بطاقات عرض</ar>
     <text>Show links as preview cards</text>
   </phrase>
+  <phrase>
+    <ar>أبجل</ar>
+    <text>Abjel</text>
+  </phrase>
+  <phrase>
+    <ar>إشعارات الجوال</ar>
+    <text>Phone notifications</text>
+  </phrase>
+  <phrase>
+    <ar>إشعارات الجوال متوقفة في هذا المنتدى</ar>
+    <text>Phone notifications are turned off on this forum</text>
+  </phrase>
+  <phrase>
+    <ar>تصلك إشعارات المنتدى على جوالك أو جهازك حتى والمنتدى مغلق. فعّلها على كل جهاز تريده.</ar>
+    <text>Get the forum's notifications on your phone or computer, even when the forum is closed. Turn them on on each device you want.</text>
+  </phrase>
+  <phrase>
+    <ar>جاري فحص هذا الجهاز...</ar>
+    <text>Checking this device...</text>
+  </phrase>
+  <phrase>
+    <ar>على الآيفون والآيباد: افتح المنتدى في سفاري، اضغط زر المشاركة ثم «إضافة إلى الشاشة الرئيسية»، وافتح المنتدى من أيقونته على الشاشة ثم فعّل الإشعارات من هنا.</ar>
+    <text>On iPhone and iPad: open the forum in Safari, tap the Share button, then "Add to Home Screen". Open the forum from its icon on the home screen and turn notifications on here.</text>
+  </phrase>
+  <phrase>
+    <ar>تفعيل الإشعارات على هذا الجهاز</ar>
+    <text>Turn on notifications on this device</text>
+  </phrase>
+  <phrase>
+    <ar>إيقاف الإشعارات على هذا الجهاز</ar>
+    <text>Turn off notifications on this device</text>
+  </phrase>
+  <phrase>
+    <ar>إرسال إشعار تجربة</ar>
+    <text>Send a test notification</text>
+  </phrase>
+  <phrase>
+    <ar>الإشعارات التي تصلك</ar>
+    <text>Notifications you get</text>
+  </phrase>
+  <phrase>
+    <ar>رسالة خاصة جديدة</ar>
+    <text>New private message</text>
+  </phrase>
+  <phrase>
+    <ar>ردود جديدة في مواضيع تتابعها</ar>
+    <text>New replies in topics you follow</text>
+  </phrase>
+  <phrase>
+    <ar>الإشارة لعضويتك</ar>
+    <text>Mentions of you</text>
+  </phrase>
+  <phrase>
+    <ar>الإقتباس من مشاركاتك</ar>
+    <text>Quotes of your posts</text>
+  </phrase>
+  <phrase>
+    <ar>الإعجاب بمشاركاتك</ar>
+    <text>Likes of your posts</text>
+  </phrase>
+  <phrase>
+    <ar>الإشعارات مفعلة على هذا الجهاز</ar>
+    <text>Notifications are on on this device</text>
+  </phrase>
+  <phrase>
+    <ar>الإشعارات غير مفعلة على هذا الجهاز</ar>
+    <text>Notifications are off on this device</text>
+  </phrase>
+  <phrase>
+    <ar>الإشعارات محظورة لهذا المنتدى في إعدادات متصفحك، اسمح بها من إعدادات المتصفح ثم حاول مرة أخرى.</ar>
+    <text>Notifications for this forum are blocked in your browser settings. Allow them there, then try again.</text>
+  </phrase>
+  <phrase>
+    <ar>متصفح هذا الجهاز لا يدعم الإشعارات.</ar>
+    <text>The browser on this device does not support notifications.</text>
+  </phrase>
+  <phrase>
+    <ar>الإشعارات تعمل فقط على المنتديات التي تستخدم https.</ar>
+    <text>Notifications work only on forums that use https.</text>
+  </phrase>
+  <phrase>
+    <ar>تعذر تفعيل الإشعارات، حاول مرة أخرى.</ar>
+    <text>Could not turn on notifications. Please try again.</text>
+  </phrase>
+  <phrase>
+    <ar>إشعارات الجوال للأعضاء</ar>
+    <text>Phone notifications for members</text>
+  </phrase>
+  <phrase>
+    <ar>متصفحك لا يدعم الإشعارات</ar>
+    <text>Your browser does not support notifications</text>
+  </phrase>
+  <phrase>
+    <ar>تم تفعيل الإشعارات على هذا الجهاز</ar>
+    <text>Notifications turned on on this device</text>
+  </phrase>
+  <phrase>
+    <ar>تم إيقاف الإشعارات على هذا الجهاز</ar>
+    <text>Notifications turned off on this device</text>
+  </phrase>
+  <phrase>
+    <ar>الإشعارات غير مفعلة على أي جهاز</ar>
+    <text>Notifications are not on on any device</text>
+  </phrase>
+  <phrase>
+    <ar>تعذر إرسال الإشعار، الرجاء تفعيل الإشعارات من جديد</ar>
+    <text>Could not send the notification. Please turn notifications on again.</text>
+  </phrase>
+  <phrase>
+    <ar>تم إرسال إشعار التجربة</ar>
+    <text>Test notification sent</text>
+  </phrase>
+  <phrase>
+    <ar>هذا إشعار تجربة.. الإشعارات تعمل على هذا الجهاز</ar>
+    <text>This is a test notification. Notifications work on this device.</text>
+  </phrase>
+  <phrase>
+    <ar>الوضع غير موجود</ar>
+    <text>Unknown mode</text>
+  </phrase>
+  <phrase>
+    <ar>الرجاء تسجيل الدخول</ar>
+    <text>Please log in</text>
+  </phrase>
+  <phrase>
+    <ar>تم حفظ التغييرات</ar>
+    <text>Changes saved</text>
+  </phrase>
 </language>

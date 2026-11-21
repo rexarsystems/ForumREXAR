@@ -47,7 +47,7 @@ ForumREXAR is written in Go and ships as a single Docker image. Posts are stored
 - A per-member choice between the classic forum list and a boxed layout of the forums.
 - Quick reply with a full rich-text editor, quotes, @mentions, likes and topic follow.
 - **Drafts:** what you type in a topic, reply, edit or private message is saved in your browser, and you are asked before leaving a page with unsent text.
-- **Dark mode:** a moon button in the member card turns the forum dark, on computers and phones, keeping the colours members chose in their posts readable.
+- **Dark mode:** a moon button in the member card turns the forum dark, on computers and phones, keeping the colours members chose in their posts readable. The choice is saved with the member's account.
 - Private messages with inbox, outbox and trash.
 - A multi-room **live chat**.
 - Member profiles, medals, titles, post styles and name-change requests.
@@ -57,6 +57,7 @@ ForumREXAR is written in Go and ships as a single Docker image. Posts are stored
 ### Real-time engagement
 - Instant notifications for replies in followed topics, mentions, quotes, likes and private messages, pushed to the browser as they happen.
 - Unread counters in the bottom bar, a floating alert and optional notification sounds.
+- **Phone notifications (Web Push):** members turn them on per device and choose which kinds they get; they arrive even with the forum closed, on Android, iPhone (added to the home screen) and computers. No app store and no third-party account needed.
 
 ### Moderation
 - Directors, deputies, category supervisors, their deputies and forum moderators, each limited to the forums they are assigned to.

@@ -2,6 +2,10 @@
 
 ## 2.0 update (November 2026)
 
+- **Phone notifications (Web Push):** members turn them on per device in their data page and choose the kinds (private messages, replies in followed topics, mentions, quotes, likes). They arrive even with the forum closed and open the right page when tapped. Notifications are encrypted for each device and signed with the forum's own key, made automatically on first start in the data folder and kept in the control-panel backup. The director can turn the feature off in the settings. On iPhone and iPad, members add the forum to the home screen first (iOS 16.4 or later); the forum needs https.
+- **Dark mode is saved in the member's account,** so it comes back after logging in again, on any device. Link pills, link cards and quotes inside posts with their own colours now show correctly in dark mode.
+- **Abjel** font added to the post fonts (SIL Open Font License, by Obaid), and TTF/OTF fonts are now sent compressed.
+
 - **Fast Arabic-aware search:** posts are kept in a full-text index (SQLite FTS5) that ignores diacritics and hamza forms and finds words with or without the article ("ال", "وال", "بال"...). Searching one million posts went from about 2 seconds to 50 ms. The index is built once at the first start after the update and follows every new, edited or deleted post by itself.
 - **Link cards:** a link written alone on its line shows as a card with the page picture, site, title and description; GitHub repositories get their own card. Pages are read once in the background (http/https only, public addresses only, size and time limits) and saved, so nobody waits. A switch in the settings turns cards off.
 - **Links:** web addresses written as plain text are now clickable, and links to other sites open in a new tab.
