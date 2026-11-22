@@ -2,6 +2,8 @@
 
 ## 2.0 update (November 2026)
 
+- **Search engines see the replies:** each topic page now lists its visible replies as comments in its structured data (schema.org DiscussionForumPosting), so Google reads the whole discussion. Hidden, deleted and waiting replies are left out.
+- **Control panel operations log:** each action shows its real time (today, yesterday or the date), and the log shows 10 actions per page with previous and next.
 - **Phone notifications (Web Push):** members turn them on per device in their data page and choose the kinds (private messages, replies in followed topics, mentions, quotes, likes). They arrive even with the forum closed and open the right page when tapped. Notifications are encrypted for each device and signed with the forum's own key, made automatically on first start in the data folder and kept in the control-panel backup. The director can turn the feature off in the settings. On iPhone and iPad, members add the forum to the home screen first (iOS 16.4 or later); the forum needs https.
 - **Dark mode is saved in the member's account,** so it comes back after logging in again, on any device. Link pills, link cards and quotes inside posts with their own colours now show correctly in dark mode.
 - **Abjel** font added to the post fonts (SIL Open Font License, by Obaid), and TTF/OTF fonts are now sent compressed.
