@@ -14112,4 +14112,52 @@
     <ar>تم حفظ التغييرات</ar>
     <text>Changes saved</text>
   </phrase>
+  <phrase>
+    <ar>قسم رئيسي</ar>
+    <text>Main category</text>
+  </phrase>
+  <phrase>
+    <ar>يُعيَّنون لكل منتدى</ar>
+    <text>Set for each forum</text>
+  </phrase>
+  <phrase>
+    <ar>⚠️ مختلف بين المنتديات</ar>
+    <text>⚠️ Differs between forums</text>
+  </phrase>
+  <phrase>
+    <ar>⚙️ مراقب ونائب القسم</ar>
+    <text>⚙️ Category supervisor and deputy</text>
+  </phrase>
+  <phrase>
+    <ar>⚙️ مراقب ونائب القسم الرئيسي</ar>
+    <text>⚙️ Main category supervisor and deputy</text>
+  </phrase>
+  <phrase>
+    <ar>يُطبَّق المراقب ونائبه على كل منتديات القسم:</ar>
+    <text>The supervisor and deputy apply to every forum of the category:</text>
+  </phrase>
+  <phrase>
+    <ar>المراقب ونائبه يُعيَّنان للقسم الرئيسي كله من سطره في الجدول، وهنا تضيف مشرفي هذا المنتدى فقط.</ar>
+    <text>The supervisor and deputy are set for the whole main category from its row in the table. Here you add this forum's moderators only.</text>
+  </phrase>
+  <phrase>
+    <ar>المراقب ونائب المراقب:</ar>
+    <text>Supervisor and deputy:</text>
+  </phrase>
+  <phrase>
+    <ar>يُعيَّنان للقسم الرئيسي كله من «طاقم الإشراف»</ar>
+    <text>Set for the whole main category in "Supervision staff"</text>
+  </phrase>
+  <phrase>
+    <ar>تم تحديث مراقب ونائب القسم الرئيسي في كل منتدياته</ar>
+    <text>The main category's supervisor and deputy were updated in all its forums</text>
+  </phrase>
+  <phrase>
+    <ar>لا يمكن أن يكون المراقب هو نائب المراقب نفسه</ar>
+    <text>The supervisor and the deputy cannot be the same member</text>
+  </phrase>
+  <phrase>
+    <ar>لا توجد منتديات في هذا القسم بعد، أضف منتدى أولاً</ar>
+    <text>This category has no forums yet. Add a forum first</text>
+  </phrase>
 </language>

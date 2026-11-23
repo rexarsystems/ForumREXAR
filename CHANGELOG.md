@@ -2,6 +2,7 @@
 
 ## 2.0 update (November 2026)
 
+- **Supervisor and deputy per main category:** in the control panel's supervision staff, each main category has its own highlighted row where the director sets its supervisor and deputy once; they apply to every forum in the category, and new forums get them automatically. A forum's own settings now hold its name, link and moderators only, and a supervisor or deputy can still be a moderator of particular forums.
 - **Search engines see the replies:** each topic page now lists its visible replies as comments in its structured data (schema.org DiscussionForumPosting), so Google reads the whole discussion. Hidden, deleted and waiting replies are left out.
 - **Control panel operations log:** each action shows its real time (today, yesterday or the date), and the log shows 10 actions per page with previous and next.
 - **Phone notifications (Web Push):** members turn them on per device in their data page and choose the kinds (private messages, replies in followed topics, mentions, quotes, likes). They arrive even with the forum closed and open the right page when tapped. Notifications are encrypted for each device and signed with the forum's own key, made automatically on first start in the data folder and kept in the control-panel backup. The director can turn the feature off in the settings. On iPhone and iPad, members add the forum to the home screen first (iOS 16.4 or later); the forum needs https.
