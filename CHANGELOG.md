@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.2 (November 2026)
+
+Versions now go up in small steps: 2.0 was the second release, 2.1 and 2.2 are the updates after it, and the next stable release is 2.3. Docker tags: `latest`, `v2.2.0`, `2.2.0` and `2.2`.
+
+- **Lists in the editor:** bulleted and numbered lists, with a menu to choose the marker (disc, circle, square, numbers, Roman numerals or letters) and lists inside lists. Markers sit on the reading side.
+- **Table headers inside posts** use the same blue as the main category headers on the front page, and keep their dark blue in dark mode, also inside posts with their own colours and in the editor.
+- **One version number:** the footer, the control panel badge and the setup wizard all show the version from a single place in the code.
+
 ## 2.0 update (November 2026)
 
 - **Supervisor and deputy per main category:** in the control panel's supervision staff, each main category has its own highlighted row where the director sets its supervisor and deputy once; they apply to every forum in the category, and new forums get them automatically. A forum's own settings now hold its name, link and moderators only, and a supervisor or deputy can still be a moderator of particular forums.

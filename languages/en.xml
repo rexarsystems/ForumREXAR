@@ -14160,4 +14160,12 @@
     <ar>لا توجد منتديات في هذا القسم بعد، أضف منتدى أولاً</ar>
     <text>This category has no forums yet. Add a forum first</text>
   </phrase>
+  <phrase>
+    <ar>معالج تثبيت</ar>
+    <text>Setup Wizard</text>
+  </phrase>
+  <phrase>
+    <ar>(إعداد المنتدى لأول مرة)</ar>
+    <text>(first-time forum setup)</text>
+  </phrase>
 </language>
